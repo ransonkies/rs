@@ -7,7 +7,7 @@
     <style>
         body {
             margin: 0;
-            padding: 20px;
+            padding: 2px;
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f5f5f5;
@@ -15,7 +15,7 @@
 
         /* 复制控件样式 */
         .copy-section {
-            margin: 20px 0;
+            margin: 2px 0;
         }
         .copy-text {
             color: #007BFF;
@@ -47,8 +47,10 @@
         /* 简化后的iframe容器 */
         .iframe-container {
             width: 100%;
-            max-width: 600px;
-            height: 80vh;
+            max-width: 375px;
+            height: 90vh;
+            max-height: 600px;
+
             margin: 20px auto;
             border: 1px solid #ddd;
             background: #fff;
@@ -66,9 +68,8 @@
     <div class="toast" id="toast"></div>
 
     <div class="copy-section">
-        <span class="copy-text" onclick="copyToClipboard()">点击复制客服微信号</span>
+        <span class="copy-text" onclick="copyToClipboard()">点击复制客服微信号</span> ·
         <input type="text" id="copyText" value="rsk616" readonly>
-        <br>
         <a href="https://fuas4zjom1.feishu.cn/docx/UTPHdZLrhoKFuqxoRwUcayPynnc" 
            target="_blank" 
            class="copy-text">
